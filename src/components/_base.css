@@ -1,0 +1,25 @@
+
+/** {
+  background-color: rgba(0, 0, 0, 0.1);
+}*/
+
+@define-extend reset {
+  margin: 0;
+  padding: @margin;
+  box-sizing: border-box;
+}
+
+
+.card {
+  @extend reset;
+  width: 300px;
+  max-width: @width;
+  height: auto;
+  background-color: #f4f4f4;
+  transition: all .3s ease;
+
+  &:hover {
+    boxShadow: 0px 0px 2px #ccc;
+    transform: scale(1.01,1.01);
+  }
+}

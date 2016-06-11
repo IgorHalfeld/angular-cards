@@ -1,0 +1,14 @@
+<div class="card">
+
+  <header class="card__header">
+    <span class="card__tooltip"></span>
+    <div class="card__overlay" ng-style="{'background-color': color}"></div>
+    <img class="card__header--image" ng-src="{{src}}" alt="" />
+    <h1 class="card__title"><small class="card__title--small">{{titleBigWord}},</small>{{titleSmallWord}}</h1>
+  </header>
+
+  <article class="card__article">
+    <p ng-transclude></p>
+  </article>
+
+</div>
