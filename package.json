@@ -12,6 +12,10 @@
     "angular",
     "component"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Halfeld/angular-cards.git"
+  },
   "author": "Halfeld",
   "license": "MIT",
   "devDependencies": {
