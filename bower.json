@@ -1,5 +1,6 @@
 {
   "name": "angular-cards",
+  "version": "0.1.0",
   "description": "A simple angularjs card",
   "main": "gulpfile.js",
   "authors": [
@@ -12,8 +13,8 @@
     "angular",
     "component"
   ],
-  "homepage": "",
-  "private": true,
+  "homepage": "halfeld.github.io/angular-cards",
+  "private": false,
   "ignore": [
     "**/.*",
     "node_modules",
